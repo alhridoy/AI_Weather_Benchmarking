@@ -1,5 +1,5 @@
 # AI_Weather_Benchmarking
-Problem Overview
+
 Numerical weather prediction is peculiar in a way that surprises many folks outside of meteorology - rather than just produce the specific, precise forecast for something that a user might care about, these models instead simulate the entire atmosphere. Forecasts actually have to be backed out of the model output; raw model output lightly processed for use as a forecast is often called “guidance,” and comes with no guarantees about accuracy or bias.
 
 ML weather models such as Google DeepMind’s GraphCast or NVIDIA’s FourCastNet emulate these numerical weather prediction systems, producing a subset of output that, essentially, simulates the whole atmosphere. So using them to create weather forecasts suffers the same problem as the numerical models - and that problem further extends to evaluating these models’ accuracy and performance.
